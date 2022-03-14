@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <h2>Star Pattern</h2>
+        <p id="demo"></p>
+        <script>
+            let a = "";
+            for (let i= 0; i <= 5; i++) {
+                for (let j=5; j> i; j--){
+                a += "*";
+                }
+                a += "<br>";
+            }
+            document.getElementById("demo").innerHTML = a
+        </script>
+    </head>
+</html>
