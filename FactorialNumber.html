@@ -1,0 +1,26 @@
+<html>
+    <body>
+        <p id="demo"></p>
+        <script>
+            function factorial(n) {
+                
+                let number=1;
+                if (n==0||n==1) {
+                    return number;
+                }
+                else{
+                    for (var i=n;i>=1;i--){
+                        number = number*i
+                    }
+                    return number;
+                }
+            }
+            let n = 0;
+            number= factorial(n);
+            document.getElementById("demo").innerHTML = number;
+
+        </script>
+
+       
+    </body>
+</html>
